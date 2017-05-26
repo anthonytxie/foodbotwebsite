@@ -1,10 +1,317 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-<h1> Hello and welcome to the application </h1>
 
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Faded | App Landing Page">
+        <meta name="author" content="droitlab">
+        <!-- SITE TITLE -->
+        <title>FoodBot</title>
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <script src="https://use.fontawesome.com/f6630a4861.js"></script>        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/preset.css">
+        <link rel="stylesheet" href="css/scroll-animation.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" id="triggerColor" href="css/triggerPlate/color0.css">        
+        <link rel="stylesheet" id="grad_triggerColor" href="css/triggerPlate/gradient/color-0.css">        
+        <!-- FAVICON -->
+        <link rel="shortcut icon" type="image/x-icon" href="img/Favicon_app.png">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!--Loader-->
+        <div class="loading">
+            <div class="loading-center">
+                <div class="loading-center-absolute">
+                    <div class="object object_one"></div>
+                    <div class="object object_two"></div>
+                    <div class="object object_three"></div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- MAIN NAV -->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/nav/logo-faded.png" alt="logo">
+                            <img class="logo-blue" src="img/nav/logo-faded-blue.png" alt="logo-blue">
+                        </a>
+                        <a class="btn-getnow" href="#contact">Get a Demo</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right smoothscroll">
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#screenshots">Screenshots</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END MAIN NAV -->
+        <!-- HEADER -->
+        <header id="home" class="header-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 col-header-txt lr-padding">
+                        <h1 class="animate display-none"><span>Automate</span> food orders through chat</h1>
+                        <p class="animate delay-a display-none">Reach more customers, faster with FoodBot. </p>
+                        <a class="btn-white animate delay-b display-none" href="#get-app">Get a Demo</a>
+                        <a class="btn-transparent animate delay-c display-none " href="#overview ">Discover More</a>
+                    </div>
+                    <div class="col-sm-5 col-md-offset-2 col-md-3 col-header-img right-padding">
+                        <img src="img/header/final.gif" alt="header-img" class="img-header-lg animate delay-c display-none">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+        <!-- OVERVIEW -->
+        <section id="overview" class="sec-overview bg-white">
+            <div class="container">
+                <div class="row">
+                    <h2 class="sec-title">Overview</h2>
+                    <div class="hr"></div>
+                    <p class="subheader">Let us help you build your very own custom FoodBot today! </p>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wrapper ovi-item animate">
+                            <div class="wrapper-img">
+                              <!-- <img src="img/overview/ov1.png" alt="Overview icon" /> -->
+                            <i class="material-icons md-48">phone_iphone</i>
+
+                              <!-- <i class="overview-img fa fa-pencil" aria-hidden="true"></i> -->
+                            </div>
+                            <hr>
+                            <h5>SMS & FB Mesenger</h5>
+                            <p>No need to download another app. Customers order by messaging on apps they already own.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wrapper ovi-item animate delay-a">
+                            <div class="wrapper-img">
+                              <!-- <img src="img/overview/ov2.png" alt="Overview icon" /> -->
+                            <i class="material-icons md-48">directions_walk</i>
+                              <!-- <i class="overview-img fa fa-heart" aria-hidden="true"></i> -->
+                            </div>
+                            <hr>
+                            <h5>Serve Customers Faster</h5>
+                            <p>Reduce customer wait time by 10x. <br>FoodBot automates orders so you can serve more customers, faster.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wrapper ovi-item animate delay-b">
+                            <div class="wrapper-img ">
+                              <!-- <img src="img/overview/ov3.png" alt="Overview icon" /> -->
+                              <i class="material-icons md-48">credit_card</i>
+                              <!-- <i class="overview-img fa fa-cog" aria-hidden="true"></i> -->
+                            </div>
+                            <hr>
+                            <h5>Stripe Payments</h5>
+                            <p> No need to wait in line when customers pay online.FoodBot charges $0 on top of Stripe fees.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="wrapper ovi-item animate delay-c">
+                            <div class="wrapper-img">
+                              <!-- <img src="img/overview/ov4.png" alt="Overview icon" /> -->
+                              <i class="material-icons md-48">loyalty</i>
+                              <!-- <i class="overview-img fa fa-phone" aria-hidden="true"></i> -->
+                            </div>
+                            <hr>
+                            <h5>Engage Customers</h5>
+                            <p>Open up a new way to communicate with customers. Send personalized promotions to your customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OVERVIEW -->
+        <!-- STEPS -->
+        <section id="steps" class="sec-steps bg-gradient-vertical">
+            <h2 class="sec-title">How it works</h2>
+            <div class="hr"></div>
+            <p class="subheader">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
+            <div class="container">
+                <div class="row row-1">
+                    <div class="col-sm-12 col-lg-10 col-lg-offset-1">
+                        <div class="row row-2">
+                            <div class="col-sm-4 step-1">
+                                <img src="img/steps/1.png" alt="step-1" class="animate delay-a">
+                                <div class="step-desc">
+                                    <span>01</span>
+                                    <h4>Message to Order</h4>
+                                    <hr>
+                                    <p>Customers simply text or FB message to order as if they are talking to a person.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 step-2">
+                                <img src="img/steps/2.png" alt="step-2" class="animate delay-b ">
+                                <div class="step-desc">
+                                    <span>02</span>
+                                    <h4>Skip the Line</h4>
+                                    <hr>
+                                    <p>When customers pay online, they skip the line. No need to wait! Customers just pick up their food and go.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 step-3">
+                                <img src="img/steps/3.png" alt="step-3" class="animate delay-c">
+                                <div class="step-desc">
+                                    <span>03</span>
+                                    <h4>Points for Later</h4>
+                                    <hr>
+                                    <p>Customers earn points they can use to earn awesome rewards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END STEPS -->
+        <!-- FEATURES -->
+        <section id="features" class="sec-features bg-grey">
+            <h2 class="sec-title">Slide into Your Customers' DMs</h2>
+            <div class="hr"></div>
+            <p class="subheader">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui <br/>
+                vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-12 container-acting">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3 feat-top-left animate delay-a">
+                                <i class="material-icons md-48">favorite</i>
+                                <h5>Let your Brand Personality Shine</h5>
+                                <p>Integer quis mollis lacus maecenas in <br>ornare ex sed scelerisque nec elit nec <br>vehicula duis pretium libero</p>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 feat-top-right animate">
+                                <i class="material-icons md-48">face</i>
+                                <h5>Re-activate Churned Users</h5>
+                                <p>Duis finibus odio sit amet nisi dictum et <br>viverra libero semper donec consectetur <br>ultrices ante ac vehicula.</p>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 feat-bottom-left animate delay-a">
+                                <i class="material-icons md-48">rate_review</i>
+                                <h5>Ask for Reviews</h5>
+                                <p>Cras eget consequat justo pellentesque <br>sodales metus metus lacinia dolor <br>aliquam id donec vitae sapien</p>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 feat-bottom-right animate">
+                                <i class="material-icons md-48">bookmark_border</i>            
+                                <h5>Remember Previous Orders</h5>
+                                <p>Praesent sit amet felis consequat dui <br>sit amet dignissim arcu dignissim <br>ultrices massa ut pulvinar.</p>
+                            </div>
+                        </div>
+                        <img class='img-responsive' src="img/features/phone-lines.gif" alt='featured'>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END FEATURES -->
+       
+        
+        <!-- CONTACT -->
+        <section id="contact" class="sec-contact bg-img">
+            <div class="bg-img"></div>
+            <h2 class="sec-title">Get in touch</h2>
+            <div class="hr"></div>
+            <p class="subheader">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo vestibulum eget lectus non gravida ultrices</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 animate">
+                        <div class="contact">
+                            <h3>Get a Demo</h3>
+                            <p> Let us show you how it works. Schedule a 15 minute online demo! </p>
+                            <div class="contact-info">
+                                <h5><i class="icon ion-ios-location"></i> Location</h5>
+                                <h6>330 Phillip Street, Waterloo</h6>
+                            </div>
+                            <div class="contact-info">
+                                <h5><i class="icon ion-ios-telephone"></i> Phone</h5>
+                                <h6>519-798-3532</h6>
+                            </div>
+                            <div class="contact-info">
+                                <h5><i class="icon ion-email-unread"></i> Email</h5>
+                                <h6>foodbot@gmail.com</h6>
+                            </div>
+                   <!--          <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                            </div> -->
+                        </div>
+                
+                    </div>
+                    <div class="col-md-4 animate delay-a">
+                        <form class="contact_form" action="#" method="post" enctype="multipart/form-data">
+                            <h3>Leave a comment</h3>
+                            <div class="form-group">
+                                <input name="uname" type="text" class="form-control uName" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <input name="uemail" type="email" class="form-control uEmail" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" class="form-control msg" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit">Send message <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                            <p id="fftext"></p>
+                            <span id="ffsuccess"></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END CONTACT -->
+        <!-- FOOTER -->
+        <footer class="bg-img">
+            <div class="bg-img"></div>
+            <h2 class="sec-title">Get the Latest Updates!</h2>
+            <div class="hr"></div>
+            <p class="subheader">We'll let you know of any new product features through e-mail. No spam we promise !</p>
+            <div class="subscription">
+                <form class="form-inline mailchimp" method="post">
+                    <div class="form-group">
+                        <input name="email" type="email" class="form-control memail" placeholder="Your email">
+                    </div>
+                    <button type="submit">Subscribe <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    <p class="mchimp-errmessage"></p>
+                    <p class="mchimp-sucmessage"></p>
+                </form>
+            </div>
+            <h5 class="footer">Copyright &copy; by <strong>FoodBot</strong> 2017. All right reserved.</h5>
+        </footer>
+        <!-- END FOOTER -->
+        <a href="#" class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        <!-- Scripts -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.waypoints.min.js" ></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/gmap.js"></script>
+        <script type="text/javascript" src="js/custom-animations.js"></script>
+        <script type="text/javascript" src="js/theme.js"></script>
+    </body>
 </html>
+
+
+
+
+
+
