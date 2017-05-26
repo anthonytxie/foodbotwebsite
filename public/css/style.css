@@ -34,28 +34,28 @@
 IMPORT FONTS AND FACE FONTS
 ----------------------------------*/
 
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic';
+@import "https://fonts.googleapis.com/css?family=montserrat";
 
 @import 'https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic';
 
 @import 'https://fonts.googleapis.com/css?family=Lato:700';
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'montserrat';
   font-weight: 300;
-  src: url(../fonts/Montserrat-Light.otf) format("otf");
+  src: url(../fonts/montserrat.otf) format("otf");
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'montserrat';
   font-weight: 400;
-  src: url(../fonts/Montserrat-Regular.ttf) format("ttf");
+  src: url(../fonts/montserrat.ttf) format("ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'montserrat';
   font-weight: 600;
-  src: url(../fonts/Montserrat-SemiBold.otf) format("otf");
+  src: url(../fonts/montserrat.otf) format("otf");
 }
 
 /*--------------------------------
@@ -284,10 +284,10 @@ Header
 header {
   position: relative;
   padding-top: 130px;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   overflow: hidden;
 }
 
@@ -350,14 +350,13 @@ header .container [class^='col-'].col-header-img {
 header h1 {
   margin-bottom: 30px;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'nunito', sans-serif;
   font-weight: 200;
   font-size: 60px;
   line-height: 1.167;
 }
 
 header h1 span {
-  font-weight: 600;
 }
 
 header p {
@@ -400,7 +399,7 @@ header a:last-child {
 }
 
 header a.btn-white {
-  color: #4776e6;
+  color: #f7cf54;
   background-color: white;
   border-color: white;
 }
@@ -416,7 +415,7 @@ header a.btn-transparent {
 
 header a.btn-transparent:hover {
   background-color: white;
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 header img {
@@ -437,7 +436,7 @@ header img.img-header-sm {
 
 header.blog-list,
 header.blog-detail {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserrat', sans-serif;
   min-height: 480px;
 }
 header.blog-list.horizontal,
@@ -595,9 +594,9 @@ section {
 
 footer h2,
 section h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 0px;
   font-size: 36px;
   margin-bottom: 23px;
 }
@@ -666,10 +665,10 @@ section.bg-grey {
 }
 
 section.bg-gradient-horizontal {
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
 }
 
 section.bg-gradient-horizontal.solid {
@@ -678,10 +677,10 @@ section.bg-gradient-horizontal.solid {
 }
 
 section.bg-gradient-vertical {
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(90deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(90deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(90deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
 }
 
 section.bg-gradient-vertical.solid {
@@ -757,7 +756,7 @@ Overview
 .sec-overview [class^="col-"] .wrapper-img > .overview-img.lnr,
 .sec-overview [class^="col-"] .wrapper-img > .overview-img.fa {
   font-size: 64px;
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-overview [class^="col-"] hr {
@@ -766,9 +765,9 @@ Overview
   width: 30px;
   height: 2px;
   border-top: 0;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
@@ -800,9 +799,9 @@ Overview
 }
 
 .sec-overview [class^="col-"]:hover hr {
-  background-image: -moz-linear-gradient(90deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(90deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(90deg, #4776e6 0%, #8E54E9 100%);
+  background-image: -moz-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
 }
 
 .sec-overview.solid [class^="col-"] .wrapper-img > .overview-img.lnr,
@@ -986,10 +985,10 @@ header.image-home:before{
     top: 0;
     position: absolute;
     z-index: 1;
-    background-color: #4776e6;
-    background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-    background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-    background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+    background-color: #f7cf54;
+    background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+    background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+    background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
     opacity: 0.60;
 }
 .slider-area .fade{
@@ -1064,7 +1063,7 @@ header.image-home:before{
 .slider-caption .col-header-txt h1{
     margin-bottom: 30px;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 200;
     font-size: 60px;
     line-height: 1.167;
@@ -1117,7 +1116,7 @@ header.image-home:before{
 }
 .slider-caption .col-header-txt a.btn-transparent:hover{
   background-color: white;
-  color: #4776e6;
+  color: #f7cf54;
 }
 .slider-caption .col-header-txt a.btn-transparent:hover{
     color: #4c4b4b;
@@ -1161,7 +1160,7 @@ Features
   display: inline-block;
   position: relative;
   font-size: 26px;
-  color: #4776e6;
+  color: #f7cf54;
   vertical-align: middle;
   line-height: 64px;
   height: 64px;
@@ -1169,10 +1168,10 @@ Features
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
 }
 
 .sec-features .lnr::before {
@@ -1271,7 +1270,7 @@ Screenshots
 }
 
 .sec-screenshots .filter-btn:hover {
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-screenshots .filter-btn:focus {
@@ -1295,11 +1294,11 @@ Screenshots
 }
 
 .sec-screenshots .filter-btn.active {
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  color: #4776e6;
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  color: #f7cf54;
 }
 
 .sec-screenshots .filter-btn.active::before {
@@ -1336,9 +1335,9 @@ Screenshots
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-image: -moz-linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
-  background-image: -webkit-linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
-  background-image: -ms-linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+  background-image: -moz-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(90deg, #f7cf54 0%, #d65e39 100%);
   width: 170px;
   height: 380px;
   line-height: 420px;
@@ -1403,10 +1402,10 @@ Screenshots
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
 }
 
 .sec-screenshots .screenshots .owl-controls .owl-pagination .owl-page + .owl-page {
@@ -1625,7 +1624,7 @@ Testimonial
 }
 .sec-testimonial .media .media-body .fa-quote-left {
   font-size: 24px;
-  color: #4776e6;
+  color: #f7cf54;
 }
 .sec-testimonial .media .media-body p {
   margin-top: 18px;
@@ -1637,7 +1636,7 @@ Testimonial
 
 .sec-testimonial .media .media-body i[class*="fa-star"] {
   letter-spacing: -3px;
-  color: #8E54E9;
+  color: #d65e39;
 }
 
 .sec-testimonial .media .media-body h6 {
@@ -1674,10 +1673,10 @@ Testimonial
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
 }
 
 .sec-testimonial .owl-controls .owl-pagination .owl-page + .owl-page {
@@ -1804,10 +1803,10 @@ Team
   border-radius: 50%;
   margin-right: 8px;
   font-size: 16px;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   color: #b2b2b2;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -1879,7 +1878,7 @@ Pricing
 .sec-pricing [class^="col-"] .wrapper h3,
 .sec-pricing [class^="col-"] .wrapper h1 {
   font-weight: 700;
-  color: #8E54E9;
+  color: #d65e39;
 }
 
 .sec-pricing [class^="col-"] .wrapper h3 {
@@ -1890,7 +1889,7 @@ Pricing
 }
 
 .sec-pricing [class^="col-"] .wrapper .pricing-img {
-  color: #8E54E9;
+  color: #d65e39;
 }
 
 .sec-pricing [class^="col-"] .wrapper .pricing-img + hr {
@@ -1943,11 +1942,11 @@ Pricing
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  color: #8E54E9;
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  color: #d65e39;
 }
 
 .sec-pricing [class^="col-"] .wrapper a::before {
@@ -2017,7 +2016,7 @@ Pricing
   position: absolute;
   right: -60px;
   top: 20px;
-  background-color: #4776e6;
+  background-color: #f7cf54;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
@@ -2033,11 +2032,11 @@ Pricing
 
 .sec-pricing [class^="col-"].highlighted .wrapper h3,
 .sec-pricing [class^="col-"].highlighted .wrapper h1 {
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-pricing [class^="col-"].highlighted .wrapper .pricing-img {
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-pricing [class^="col-"].highlighted .wrapper .pricing-img + hr {
@@ -2062,7 +2061,7 @@ Pricing
 }
 
 .sec-pricing [class^="col-"].highlighted .wrapper a {
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-pricing.solid [class^="col-"] .wrapper h3,
@@ -2172,7 +2171,7 @@ FAQ
   -ms-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  color: #4776e6;
+  color: #f7cf54;
   background-color: white;
   /*border: 1px solid rgba(255, 255, 255, 0.4) !important;*/
 }
@@ -2324,7 +2323,7 @@ Blog
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-blog .container > a,
@@ -2338,12 +2337,12 @@ Blog
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   text-transform: uppercase;
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-blog .container > a::before,
@@ -2491,10 +2490,10 @@ Get App
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -2519,7 +2518,7 @@ Contact
 ----------------------------------*/
 
 .sec-contact {
-  background-color: #4776e6;
+  background-color: #f7cf54;
 }
 
 .sec-contact .bg-img {
@@ -2536,7 +2535,7 @@ Contact
 
 .sec-contact h3 {
   margin: 0 auto 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
@@ -2587,7 +2586,7 @@ Contact
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  color: #4776e6;
+  color: #f7cf54;
 }
 
 .sec-contact .contact .contact-info h5 i {
@@ -2831,10 +2830,10 @@ Blog List
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
 }
 
 .sec-blog-list .pagination a + a {
@@ -2908,10 +2907,10 @@ Blog Post
 .sec-blog-post .blog-post .blog-post-body blockquote {
   position: relative;
   background-color: #f9f9f9;
-  border-left: 2px solid #4776e6;
+  border-left: 2px solid #f7cf54;
   margin: 42px auto;
   padding: 40px 20px 40px 60px;
-  color: #4776e6;
+  color: #f7cf54;
   width: 85%;
 }
 
@@ -3115,10 +3114,10 @@ Blog Post
 
 .sec-blog-post .blog-submit form button {
   background: none;
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+  background-color: #f7cf54;
+  background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+  background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   border: none;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -3867,10 +3866,10 @@ Styles for smaller devices
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    background-color: #4776e6;
-    background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-    background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-    background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+    background-color: #f7cf54;
+    background-image: -moz-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+    background-image: -webkit-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
+    background-image: -ms-linear-gradient(0deg, #f7cf54 0%, #d65e39 100%);
   }
 
   header {
