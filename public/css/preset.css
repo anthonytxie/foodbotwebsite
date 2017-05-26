@@ -93,7 +93,7 @@ a.scrollup i:focus, a.scrollup i:hover,a.scrollup i:active{
 loader
 ----------------------------------*/
 .loading{
-    background-color: #4776e6;
+    background-color: #d65e39;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -225,7 +225,7 @@ a.settingBtn i{
     right: 0;
     top: 27%;
     width: 50px;
-    color: #4776e6;
+    color: #d65e39;
 }
 @-webkit-keyframes rotation {
     from {-moz-transform: rotate(0deg);
@@ -278,7 +278,7 @@ a.settingBtn.active{
 }
 .faded_switcher_single ul.nav li.active a{
     border-color: #fff!important;
-    color: #4776e6;
+    color: #d65e39;
     font-weight: 500;
     font-size: 14px;
 }
@@ -305,10 +305,10 @@ a.settingBtn.active{
     float: left;
 }
 .grad_color a.color1 {
-  background-color: #4776e6;
-  background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
-  background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
-  background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8e54e9 100%);
+  background-color: #d65e39;
+  background-image: -moz-linear-gradient(0deg, #d65e39 0%, #8e54e9 100%);
+  background-image: -webkit-linear-gradient(0deg, #d65e39 0%, #8e54e9 100%);
+  background-image: -ms-linear-gradient(0deg, #d65e39 0%, #8e54e9 100%);
   border-radius: 50%;
   height: 40px;
   margin-bottom: 10px;
@@ -352,7 +352,7 @@ a.settingBtn.active{
 a.color1{
     width: 40px;
     height: 40px;
-    background: #4776e6;
+    background: #d65e39;
     border-radius: 50%;
     margin-right: 10px;
     margin-bottom: 10px;
