@@ -249,11 +249,11 @@ nav.bg-solid {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-  color: #F45050;
+  color: #fa7853;
 }
 
 nav.bg-solid .navbar-header .navbar-toggle .icon-bar {
-  background-color: #F45050;
+  background-color: #fa7853;
 }
 
 nav.bg-solid .navbar-header .navbar-brand img.logo-blue {
@@ -265,11 +265,11 @@ nav.bg-solid .navbar-collapse {
 }
 
 nav.bg-solid .btn-getnow {
-  border: 2px solid #F45050;
+  border: 2px solid #fa7853;
 }
 
 nav.bg-solid .btn-getnow:hover {
-  background-color: #F45050;
+  background-color: #fa7853;
   color: white;
 }
 
@@ -588,7 +588,7 @@ Footer & Section Common Class
 
 footer,
 section {
-  padding: 140px 0;
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -3419,15 +3419,15 @@ Styles for smaller devices
   }
 
   nav.bg-solid .navbar-collapse .navbar-right > li > a:hover {
-    border-bottom: 2px solid #F45050;
+    border-bottom: 2px solid #fa7853;
   }
 
   nav.bg-solid .navbar-collapse .navbar-right > li > a:focus {
-    color: #F45050;
+    color: #fa7853;
   }
 
   nav.bg-solid .navbar-collapse .navbar-right > li.active > a {
-    border-bottom: 2px solid #F45050;
+    border-bottom: 2px solid #fa7853;
   }
 
   .sec-testimonial {
