@@ -93,7 +93,7 @@ a.scrollup i:focus, a.scrollup i:hover,a.scrollup i:active{
 loader
 ----------------------------------*/
 .loading{
-    background-color: #d65e39;
+    background-color: #011540;
     height: 100%;
     width: 100%;
     position: fixed;
