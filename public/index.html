@@ -19,36 +19,40 @@
         <link rel="stylesheet" href="css/preset.css">
         <link rel="stylesheet" href="css/scroll-animation.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" id="triggerColor" href="css/triggerPlate/color0.css">        
-        <link rel="stylesheet" id="grad_triggerColor" href="css/triggerPlate/gradient/color-0.css">        
+        <link rel="stylesheet" id="triggerColor" href="css/triggerPlate/color0.css">
+        <link rel="stylesheet" id="grad_triggerColor" href="css/triggerPlate/gradient/color-0.css">
         <!-- FAVICON -->
         <link rel="shortcut icon" type="image/x-icon" href="img/Favicon_app.png">
-		<!-- Start of Async Drift Code -->
-		<script>
-		!function() {
-		  var t;
-		  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-		  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-		  t.factory = function(e) {
-		    return function() {
-		      var n;
-		      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-		    };
-		  }, t.methods.forEach(function(e) {
-		    t[e] = t.factory(e);
-		  }), t.load = function(t) {
-		    var e, n, o, i;
-		    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-		    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-		    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-		  });
-		}();
-		drift.SNIPPET_VERSION = '0.3.1';
-		drift.load('865hkvxuef3x');
-		</script>
-<!-- End of Async Drift Code -->
+
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <script>
+  window.fbAsyncInit = function() {
+	FB.init({
+		appId: "your-app-id",
+		autoLogAppEvents: true,
+		xfbml: true,
+		version: "v2.11"
+	});
+};
+
+(function(d, s, id) {
+	var js,
+		fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) {
+		return;
+	}
+	js = d.createElement(s);
+	js.id = id;
+	js.src = "https://connect.facebook.net/en_US/sdk.js";
+	fjs.parentNode.insertBefore(js, fjs);
+})(document, "script", "facebook-jssdk");
+</script>
+<div class="fb-customerchat"
+ page_id="1426519617442557"
+ minimized="false">
+</div>
+
         <!--Loader-->
         <div class="loading">
             <div class="loading-center">
@@ -59,7 +63,7 @@
                 </div>
             </div>
         </div>
- 
+
         <!-- MAIN NAV -->
         <nav class="navbar navbar-fixed-top">
             <div class="container">
@@ -133,7 +137,7 @@
                             </div>
                             <hr>
                             <h5>Save Time</h5>
-                            <p>Save your customers order & wait time by streamling orders with digital recepits and notifications. 
+                            <p>Save your customers order & wait time by streamling orders with digital recepits and notifications.
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3">
@@ -233,7 +237,7 @@
                                 <p>Ask for a Yelp or Google Review so your restaurant can be more visible online</p>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3 feat-bottom-right animate">
-                                <i class="material-icons md-48">bookmark_border</i>            
+                                <i class="material-icons md-48">bookmark_border</i>
                                 <h5>Remember Previous Orders</h5>
                                 <p>We use some intelligence to remember your customers' previous order. They can repeat orders as simply as saying it.</p>
                             </div>
@@ -244,15 +248,15 @@
             </div>
         </section>
         <!-- END FEATURES -->
-       
-        
+
+
         <!-- CONTACT -->
         <section id="contact" class="sec-contact bg-img">
             <div class="bg-img"></div>
             <h4 class="sec-title">Copyright &copy; by <strong>FoodBot</strong> 2017. All right reserved. </h4>
 
 
-      
+
         </section>
         <!-- END CONTACT -->
 
@@ -269,9 +273,3 @@
         <script type="text/javascript" src="js/theme.js"></script>
     </body>
 </html>
-
-
-
-
-
-
