@@ -227,7 +227,7 @@ nav .btn-getnow:focus {
 
 nav .btn-getnow:hover {
   background-color: white;
-  color: #011540;
+  color: #1bcedf;
 }
 
 nav.bg-solid {
@@ -235,11 +235,11 @@ nav.bg-solid {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 nav.bg-solid .navbar-header .navbar-toggle .icon-bar {
-  background-color: #00a8d3;
+  background-color: #5b247a;
 }
 
 nav.bg-solid .navbar-header .navbar-brand img.logo-blue {
@@ -251,11 +251,11 @@ nav.bg-solid .navbar-collapse {
 }
 
 nav.bg-solid .btn-getnow {
-  border: 2px solid #00a8d3;
+  border: 2px solid #5b247a;
 }
 
 nav.bg-solid .btn-getnow:hover {
-  background-color: #00a8d3;
+  background-color: #5b247a;
   color: white;
 }
 
@@ -275,7 +275,7 @@ Header
 
 /*
   blue to black
-  00add3 -> 011540
+  00add3 -> 1bcedf
 
   green to black
   00bf8f -> 001510
@@ -300,10 +300,10 @@ nav .navbar-brand .p {
 header {
   position: relative;
   padding-top: 130px;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   overflow: hidden;
 }
 
@@ -415,7 +415,7 @@ header a:last-child {
 }
 
 header a.btn-white {
-  color: #00a8d3;
+  color: #5b247a;
   background-color: white;
   border-color: white;
 }
@@ -431,7 +431,7 @@ header a.btn-transparent {
 
 header a.btn-transparent:hover {
   background-color: white;
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 header img {
@@ -580,11 +580,11 @@ header.horizontal.header-home .container [class^="col-"].col-header-img {
 
 header.solid {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 header.solid a.btn-white {
-  color: #011540;
+  color: #1bcedf;
 }
 
 header.solid a.btn-white:hover {
@@ -592,7 +592,7 @@ header.solid a.btn-white:hover {
 }
 
 header.solid a.btn-transparent:hover {
-  color: #011540;
+  color: #1bcedf;
 }
 
 /*--------------------------------
@@ -682,27 +682,27 @@ section.bg-grey {
 }
 
 section.bg-gradient-horizontal {
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
 }
 
 section.bg-gradient-horizontal.solid {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 section.bg-gradient-vertical {
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(5deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(5deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
 }
 
 section.bg-gradient-vertical.solid {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -773,7 +773,7 @@ Overview
 .sec-overview [class^="col-"] .wrapper-img > .overview-img.lnr,
 .sec-overview [class^="col-"] .wrapper-img > .overview-img.fa {
   font-size: 64px;
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-overview [class^="col-"] hr {
@@ -782,9 +782,9 @@ Overview
   width: 30px;
   height: 2px;
   border-top: 0;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -ms-transition: all 0.25s ease;
@@ -816,19 +816,19 @@ Overview
 }
 
 .sec-overview [class^="col-"]:hover hr {
-  background-image: -moz-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
+  background-image: -moz-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
 }
 
 .sec-overview.solid [class^="col-"] .wrapper-img > .overview-img.lnr,
 .sec-overview.solid [class^="col-"] .wrapper-img > .overview-img.fa {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-overview.solid [class^="col-"] hr {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -1001,10 +1001,10 @@ header.image-home:before {
   top: 0;
   position: absolute;
   z-index: 1;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   opacity: 0.6;
 }
 .slider-area .fade {
@@ -1132,7 +1132,7 @@ header.image-home:before {
 }
 .slider-caption .col-header-txt a.btn-transparent:hover {
   background-color: white;
-  color: #00a8d3;
+  color: #5b247a;
 }
 .slider-caption .col-header-txt a.btn-transparent:hover {
   color: #4c4b4b;
@@ -1176,7 +1176,7 @@ Features
   display: inline-block;
   position: relative;
   font-size: 26px;
-  color: #00a8d3;
+  color: #5b247a;
   vertical-align: middle;
   line-height: 64px;
   height: 64px;
@@ -1184,10 +1184,10 @@ Features
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
 }
 
 .sec-features .lnr::before {
@@ -1212,8 +1212,8 @@ Features
 
 .sec-features.solid .lnr {
   background-image: none;
-  background-color: #011540;
-  color: #011540;
+  background-color: #1bcedf;
+  color: #1bcedf;
 }
 
 .sec-features img {
@@ -1286,7 +1286,7 @@ Screenshots
 }
 
 .sec-screenshots .filter-btn:hover {
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-screenshots .filter-btn:focus {
@@ -1310,11 +1310,11 @@ Screenshots
 }
 
 .sec-screenshots .filter-btn.active {
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  color: #00a8d3;
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  color: #5b247a;
 }
 
 .sec-screenshots .filter-btn.active::before {
@@ -1323,12 +1323,12 @@ Screenshots
 
 .sec-screenshots.solid .filter-btn.active {
   background-image: none;
-  background-color: #011540;
-  color: #011540;
+  background-color: #1bcedf;
+  color: #1bcedf;
 }
 
 .sec-screenshots.solid .filter-btn:hover {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-screenshots .screenshots {
@@ -1351,9 +1351,9 @@ Screenshots
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-image: -moz-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(90deg, #00a8d3 0%, #011540 100%);
+  background-image: -moz-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(90deg, #5b247a 0%, #1bcedf 100%);
   width: 170px;
   height: 380px;
   line-height: 420px;
@@ -1418,10 +1418,10 @@ Screenshots
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
 }
 
 .sec-screenshots
@@ -1463,12 +1463,12 @@ Screenshots
 
 .sec-screenshots.solid .screenshots .screenshot::before {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 .sec-screenshots.solid .screenshots .owl-controls .owl-pagination .owl-page {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 .sec-screenshots .screenshot-hidden {
@@ -1651,7 +1651,7 @@ Testimonial
 }
 .sec-testimonial .media .media-body .fa-quote-left {
   font-size: 24px;
-  color: #00a8d3;
+  color: #5b247a;
 }
 .sec-testimonial .media .media-body p {
   margin-top: 18px;
@@ -1663,7 +1663,7 @@ Testimonial
 
 .sec-testimonial .media .media-body i[class*="fa-star"] {
   letter-spacing: -3px;
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-testimonial .media .media-body h6 {
@@ -1700,10 +1700,10 @@ Testimonial
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
 }
 
 .sec-testimonial .owl-controls .owl-pagination .owl-page + .owl-page {
@@ -1748,12 +1748,12 @@ Testimonial
 
 .sec-testimonial.solid .media .media-body .fa-quote-left,
 .sec-testimonial.solid .media .media-body i[class*="fa-star"] {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-testimonial.solid .owl-controls .owl-pagination .owl-page {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -1830,10 +1830,10 @@ Team
   border-radius: 50%;
   margin-right: 8px;
   font-size: 16px;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   color: #b2b2b2;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -1873,7 +1873,7 @@ Team
 
 .sec-team.solid .wrapper a i {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -1905,7 +1905,7 @@ Pricing
 .sec-pricing [class^="col-"] .wrapper h3,
 .sec-pricing [class^="col-"] .wrapper h1 {
   font-weight: 700;
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-pricing [class^="col-"] .wrapper h3 {
@@ -1916,7 +1916,7 @@ Pricing
 }
 
 .sec-pricing [class^="col-"] .wrapper .pricing-img {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-pricing [class^="col-"] .wrapper .pricing-img + hr {
@@ -1969,11 +1969,11 @@ Pricing
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  color: #011540;
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  color: #1bcedf;
 }
 
 .sec-pricing [class^="col-"] .wrapper a::before {
@@ -2043,7 +2043,7 @@ Pricing
   position: absolute;
   right: -60px;
   top: 20px;
-  background-color: #00a8d3;
+  background-color: #5b247a;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
@@ -2059,11 +2059,11 @@ Pricing
 
 .sec-pricing [class^="col-"].highlighted .wrapper h3,
 .sec-pricing [class^="col-"].highlighted .wrapper h1 {
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-pricing [class^="col-"].highlighted .wrapper .pricing-img {
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-pricing [class^="col-"].highlighted .wrapper .pricing-img + hr {
@@ -2088,26 +2088,26 @@ Pricing
 }
 
 .sec-pricing [class^="col-"].highlighted .wrapper a {
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-pricing.solid [class^="col-"] .wrapper h3,
 .sec-pricing.solid [class^="col-"] .wrapper h1 {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-pricing.solid [class^="col-"] .wrapper .pricing-img {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-pricing.solid [class^="col-"] .wrapper a {
   background-image: none;
-  background-color: #011540;
-  color: #011540;
+  background-color: #1bcedf;
+  color: #1bcedf;
 }
 
 .sec-pricing.solid [class^="col-"].highlighted .wrapper::after {
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -2212,7 +2212,7 @@ FAQ
   -ms-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  color: #00a8d3;
+  color: #5b247a;
   background-color: white;
   /*border: 1px solid rgba(255, 255, 255, 0.4) !important;*/
 }
@@ -2384,7 +2384,7 @@ Blog
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-blog .container > a,
@@ -2398,12 +2398,12 @@ Blog
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   text-transform: uppercase;
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-blog .container > a::before,
@@ -2466,14 +2466,14 @@ Blog
 
 .sec-blog.solid .thumbnail-blog p + a,
 .solid.sec-blog-list .thumbnail-blog p + a {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-blog.solid .container > a,
 .solid.sec-blog-list .container > a {
   background-image: none;
-  background-color: #011540;
-  color: #011540;
+  background-color: #1bcedf;
+  color: #1bcedf;
 }
 
 /*--------------------------------
@@ -2551,10 +2551,10 @@ Get App
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -2567,7 +2567,7 @@ Get App
 
 .sec-get-app.solid a::after {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -2579,10 +2579,10 @@ Contact
 ----------------------------------*/
 
 .sec-contact {
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
 }
 
 .sec-contact .bg-img {
@@ -2650,7 +2650,7 @@ Contact
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  color: #00a8d3;
+  color: #5b247a;
 }
 
 .sec-contact .contact .contact-info h5 i {
@@ -2804,17 +2804,17 @@ Contact
 }
 
 .sec-contact.solid {
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 .sec-contact.solid .contact .contact-info h5 {
-  color: #011540;
+  color: #1bcedf;
 }
 
 .sec-contact.solid form {
   position: relative;
   z-index: 0;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 .sec-contact.solid form::before {
@@ -2830,7 +2830,7 @@ Contact
 }
 
 .sec-contact.solid form button {
-  color: #011540;
+  color: #1bcedf;
 }
 
 /*--------------------------------
@@ -2894,10 +2894,10 @@ Blog List
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
 }
 
 .sec-blog-list .pagination a + a {
@@ -2906,7 +2906,7 @@ Blog List
 
 .sec-blog-list.solid .pagination a::after {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -2971,10 +2971,10 @@ Blog Post
 .sec-blog-post .blog-post .blog-post-body blockquote {
   position: relative;
   background-color: #f9f9f9;
-  border-left: 2px solid #00a8d3;
+  border-left: 2px solid #5b247a;
   margin: 42px auto;
   padding: 40px 20px 40px 60px;
-  color: #00a8d3;
+  color: #5b247a;
   width: 85%;
 }
 
@@ -3188,10 +3188,10 @@ Blog Post
 
 .sec-blog-post .blog-submit form button {
   background: none;
-  background-color: #00a8d3;
-  background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-  background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+  background-color: #5b247a;
+  background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+  background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   border: none;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -3206,13 +3206,13 @@ Blog Post
 }
 
 .sec-blog-post.solid .blog-post .blog-post-body blockquote {
-  border-left-color: #011540;
-  color: #011540;
+  border-left-color: #1bcedf;
+  color: #1bcedf;
 }
 
 .sec-blog-post.solid .blog-submit form button {
   background-image: none;
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 /*--------------------------------
@@ -3322,7 +3322,7 @@ footer .footer {
 }
 
 footer.solid {
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 footer.solid::before {
@@ -3338,7 +3338,7 @@ footer.solid::before {
 }
 
 footer.solid .subscription button {
-  color: #011540;
+  color: #1bcedf;
 }
 
 /*--------------------------------
@@ -3346,7 +3346,7 @@ End Footer
 ----------------------------------*/
 
 .loading.solid {
-  background-color: #011540;
+  background-color: #1bcedf;
 }
 
 .header-home,
@@ -3493,15 +3493,15 @@ Styles for smaller devices
   }
 
   nav.bg-solid .navbar-collapse .navbar-right > li > a:hover {
-    border-bottom: 2px solid #00a8d3;
+    border-bottom: 2px solid #5b247a;
   }
 
   nav.bg-solid .navbar-collapse .navbar-right > li > a:focus {
-    color: #00a8d3;
+    color: #5b247a;
   }
 
   nav.bg-solid .navbar-collapse .navbar-right > li.active > a {
-    border-bottom: 2px solid #00a8d3;
+    border-bottom: 2px solid #5b247a;
   }
 
   .sec-testimonial {
@@ -3972,10 +3972,10 @@ Styles for smaller devices
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    background-color: #00a8d3;
-    background-image: -moz-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-    background-image: -webkit-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
-    background-image: -ms-linear-gradient(0deg, #00a8d3 0%, #011540 100%);
+    background-color: #5b247a;
+    background-image: -moz-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+    background-image: -webkit-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
+    background-image: -ms-linear-gradient(0deg, #5b247a 0%, #1bcedf 100%);
   }
 
   header {
